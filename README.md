@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. This portfolio showcases my professional experience, technical skills, and featured projects.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Responsive design that works on all devices
+- Smooth scrolling navigation
+- Interactive UI components
+- Dark theme with gradient accents
+- Section-based layout:
+  - Hero section with introduction
+  - Experience timeline
+  - Skills showcase
+  - Project portfolio
+  - Contact information
+
+## 🛠️ Technologies Used
+
+- **Frontend Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide Icons
+- **Animations**: CSS Transitions & Animations
+- **Development Tools**: ESLint, PostCSS
+
+## 📂 Project Structure
+
+```
+src/
+├── app/              # Next.js app directory
+├── components/       # React components
+│   ├── layout/      # Layout components
+│   ├── sections/    # Page sections
+│   └── ui/          # Reusable UI components
+├── data/            # Static data
+└── types/           # TypeScript types
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-## Deploy on Vercel
+## 📱 Responsive Design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Mobile-first approach
+- Breakpoints:
+  - Mobile: < 768px
+  - Tablet: 768px - 1024px
+  - Desktop: > 1024px
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎨 Styling
+
+The project uses Tailwind CSS with a custom theme configuration that includes:
+- Custom gradient backgrounds
+- Responsive typography
+- Glassmorphism effects
+- Smooth transitions
+
+## 🔍 SEO
+
+- Meta tags for better SEO
+- Optimized for social media sharing
+- Semantic HTML structure
+
+## 📄 License
+
+MIT License - feel free to use this code for your own portfolio!
+
+## 📞 Contact
+
+Feel free to reach out if you have any questions or suggestions:
+- Email: lokeshpadmanabhan98@hotmail.com
+- LinkedIn: [Lokesh Padmanabhan](https://linkedin.com/in/lokesh-padmanabhan/)
+- GitHub: [Lokesh8055](https://github.com/Lokesh8055)
