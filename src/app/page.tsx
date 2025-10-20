@@ -102,7 +102,7 @@ export default function Portfolio() {
       <Experience />
       <Skills />
       <Projects />
-      <Contact />
+      <Contact personalInfo={personalInfo} />
       <Footer />
     </div>
   );

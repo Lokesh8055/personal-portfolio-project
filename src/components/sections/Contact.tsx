@@ -9,7 +9,18 @@ import {
 import { personalInfo } from "@/data/personal";
 import SectionTitle from "@/components/ui/SectionTitle";
 
-const Contact = () => {
+type ContactProps = {
+  personalInfo: {
+    email: string;
+    phone: string;
+    github: string;
+    linkedin: string;
+    codewars: string;
+    frontendmentor: string;
+  };
+};
+
+const Contact = ({ personalInfo }: ContactProps) => {
   return (
     <section
       id="contact"
@@ -18,8 +29,8 @@ const Contact = () => {
       <div className="max-w-4xl w-full text-center">
         <SectionTitle>Get In Touch</SectionTitle>
         <p className="text-xl text-gray-300 mb-12">
-          I'm always open to discussing new opportunities, interesting projects,
-          or just having a chat about tech!
+          I&apos;m always open to discussing new opportunities, interesting
+          projects, or just having a chat about tech!
         </p>
         <div className="grid md:grid-cols-2 gap-6 mb-12">
           <a
