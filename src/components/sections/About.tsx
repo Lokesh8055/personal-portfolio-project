@@ -1,6 +1,16 @@
+import { PersonalInfo } from "@/types";
 import { MapPin, Phone, Mail } from "lucide-react";
+import SectionTitle from "../ui/SectionTitle";
 
-const About = ({ personalInfo }: { personalInfo: PersonalInfo }) => {
+type AboutProps = {
+  personalInfo: {
+    location: string;
+    phone: string;
+    email: string;
+  };
+};
+
+const About = ({ personalInfo }: AboutProps) => {
   return (
     <section
       id="about"

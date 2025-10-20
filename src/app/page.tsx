@@ -8,6 +8,7 @@ import Projects from "@/components/sections/Projects";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
 import { personalInfo } from "@/data/personal";
+import About from "@/components/sections/About";
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("home");
@@ -97,6 +98,7 @@ export default function Portfolio() {
       />
 
       <Hero personalInfo={personalInfo} scrollToSection={scrollToSection} />
+      <About personalInfo={personalInfo} />
       <Experience />
       <Skills />
       <Projects />
