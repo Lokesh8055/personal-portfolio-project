@@ -6,7 +6,6 @@ import {
   Code,
   ExternalLink,
 } from "lucide-react";
-import { personalInfo } from "@/data/personal";
 import SectionTitle from "@/components/ui/SectionTitle";
 
 type ContactProps = {
