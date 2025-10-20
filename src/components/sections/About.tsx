@@ -1,4 +1,3 @@
-import { PersonalInfo } from "@/types";
 import { MapPin, Phone, Mail } from "lucide-react";
 import SectionTitle from "../ui/SectionTitle";
 

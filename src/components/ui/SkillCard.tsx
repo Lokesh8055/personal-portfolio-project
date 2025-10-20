@@ -1,15 +1,26 @@
+import React from "react";
+import type { LucideProps } from "lucide-react";
 import { Code, Briefcase, Award, GraduationCap } from "lucide-react";
 import { SkillCategory } from "@/types";
 
 const SkillCard = ({ category }: { category: SkillCategory }) => {
-  const iconMap: Record<string, any> = {
+  type IconComponent = React.ComponentType<LucideProps>;
+
+  const iconMap: Record<string, IconComponent> = {
     code: Code,
     briefcase: Briefcase,
     award: Award,
     "graduation-cap": GraduationCap,
   };
 
-  const colorMap: Record<string, any> = {
+  type ColorStyles = {
+    icon: string;
+    bg: string;
+    hover: string;
+    text: string;
+  };
+
+  const colorMap: Record<string, ColorStyles> = {
     purple: {
       icon: "text-purple-400",
       bg: "bg-purple-900/50",
@@ -46,7 +57,7 @@ const SkillCard = ({ category }: { category: SkillCategory }) => {
         <h3 className="text-2xl font-bold">{category.title}</h3>
       </div>
       <div className="flex flex-wrap gap-3">
-        {category.skills.map((skill, i) => (
+        {category.skills.map((skill: string, i: number) => (
           <span
             key={i}
             className={`px-4 py-2 ${colors.bg} rounded-lg ${colors.text} ${colors.hover} transition`}
