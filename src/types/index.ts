@@ -1,8 +1,10 @@
 export interface Experience {
   title: string;
+  about: string;
   company: string;
   location: string;
   period: string;
+  products?: string[];
   highlights: string[];
 }
 

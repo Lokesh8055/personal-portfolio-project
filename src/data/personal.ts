@@ -4,7 +4,7 @@ export const personalInfo: PersonalInfo = {
   name: "Lokesh Padmanabhan",
   title: "Senior Front End Engineer (React)",
   tagline:
-    "5+ years crafting scalable, high-performance web applications. Scaled products to 1M+ users with 40% performance improvements.",
+    "6+ years crafting scalable, high-performance web applications. Scaled products to 1M+ users with 40% performance improvements.",
   location: "Bengaluru, India",
   phone: "+91 8682864241",
   email: "lokeshpadmanabhan98@hotmail.com",

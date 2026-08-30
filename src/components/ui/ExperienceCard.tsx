@@ -14,6 +14,12 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => (
         <p className="text-gray-400">{experience.location}</p>
       </div>
     </div>
+    <p className="mb-4 text-gray-300">{experience.about}</p>
+    {experience.products && experience.products.length > 0 && (
+      <p className="mb-4 text-gray-300">
+        <strong>Products:</strong> {experience.products.join(", ")}
+      </p>
+    )}
     <ul className="space-y-2">
       {experience.highlights.map((highlight, i) => (
         <li key={i} className="flex items-start gap-2 text-gray-300">
