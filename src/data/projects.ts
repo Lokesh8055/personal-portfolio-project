@@ -3,7 +3,7 @@ import { Project } from "@/types";
 export const projects: Project[] = [
   {
     name: "Daily SIP & Monthly SIP",
-    description: "Scaled to 1M+ users with 20% faster load times",
+    description: "Investment products serving 1M+ users",
     tech: "React, Redux, TypeScript",
   },
   {
